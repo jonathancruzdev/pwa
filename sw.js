@@ -3,7 +3,6 @@ self.addEventListener('install', evento => {
     const cache = caches.open('mi-cache-1').then( cache => {
         // Guarda los datos del caché necesario para que la app funciones sin conexión
        return cache.addAll([
-        '/',
         './index.html',
         'https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css',
         './css/style.css', 
