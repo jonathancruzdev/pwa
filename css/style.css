@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(21, 21, 193);
+}
+
+.posts{
+    min-height: 50vh;
+    overflow-x: scroll;
+}
+
+.btn-post {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    box-shadow: -2px 2px 5px #000;
+}
+
+
+
+@media screen and (min-width: 720px) {
+    main {
+        width: 50%;
+    }
+}
